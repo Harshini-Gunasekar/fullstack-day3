@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb3wjXm6cHAqKOY8gvsrMjwK315S3ptrbIA&s.jpg') no-repeat center center fixed; /* Add your image path here */
+    background-size: cover; /* Make the image cover the entire background */
+    font-family: Arial, sans-serif;
+  }
+  
+
+
+  
+  .slambook-container {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent form background */
+    border: 2px solid #007bff; /* Border around the entire form */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    position: relative; /* For positioning the header cutout */
+  }
+  
+  .slambook-container h1 {
+    font-size: 24px;
+    color: #007bff;
+
+    margin: 0 auto;
+    position: relative;
+    top: -30px; /* Move the header to overlap the border */
+    background-color: rgba(255, 255, 255, 0.8); /* Same as form background */
+    padding: 0 20px; /* Space around the text */
+    display: inline-block; /* Keeps the header inline for proper cutout */
+  }
+  
+
+  .slambook-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slambook-form label {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .slambook-form input[type="text"],
+  .slambook-form input[type="tel"],
+  .slambook-form textarea,
+  .slambook-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .slambook-form textarea {
+    height: 80px;
+  }
+  
+  .slambook-form fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .slambook-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .slambook-form fieldset div {
+    margin-bottom: 10px; /* Adds spacing between options */
+  }
+  
+  
+  .slambook-form button:hover {
+    background-color: #0056b3;
+  }
+  
